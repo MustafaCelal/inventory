@@ -9,17 +9,5 @@ public interface ProductService {
 	List<ProductDto> findAllByCategoryId(long categoryId);
 	
 	ProductDto find(long productId);
-	
-	
-	
-	
-//	long create(ProductDto productDto);
-//	
-//	void update(ProductDto productDto);
-//	
-//	ProductDto find(long productId);
-//	
-//	List <ProductDto> findAll();
-//	
-//	void delete(long productId);
+
 }
